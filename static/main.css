@@ -1,0 +1,10 @@
+.chat-log {
+  height: 420px;
+  overflow-y: auto;
+  background: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: .5rem;
+  padding: .75rem;
+}
+.chat-msg { margin-bottom: .5rem; }
+.chat-msg .role { font-weight: 600; margin-right: .35rem; }

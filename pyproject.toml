@@ -1,0 +1,21 @@
+[project]
+name = "research-paper-summarizer"
+version = "0.1.0"
+description = "Summarize academic papers with Gemini Flash (map-reduce) and provide a chat interface."
+authors = [
+    { name = "Raghu Rammohan", email = "rraghu214@outlook.com" }
+]
+readme = "README.md"
+requires-python = ">=3.12"
+
+# Runtime dependencies
+dependencies = [
+    "flask",
+    "requests",
+    "beautifulsoup4",
+    "google-generativeai",
+    "google-genai>=0.5.0",
+#    "gunicorn",          # for production serving
+#    "python-dotenv",     # to manage env vars like API keys
+    "pdfminer.six"       # if you want PDF support
+]
